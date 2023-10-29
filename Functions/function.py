@@ -96,3 +96,18 @@ fun_with_default_parameter("Tiger")
 fun_with_default_parameter("Goat")
 fun_with_default_parameter()
 fun_with_default_parameter("Cow")
+
+
+print(
+    "\nPassing a List as an Argument in Python functions--------------------------------------------------------"
+)
+
+
+def fun_with_list_argument(names):
+    print("The first name is : ", names[0], "\n")
+    for i in names:
+        print(i + " ")
+
+
+names_1 = ["Ali", "Key", "Kali", "Shik"]
+fun_with_list_argument(names_1)
