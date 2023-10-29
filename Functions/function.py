@@ -1,5 +1,9 @@
 # Declaring a Python Function
 
+print(
+    "Function without parameter--------------------------------------------------------"
+)
+
 
 def my_function():
     print("This is a function")
@@ -7,6 +11,10 @@ def my_function():
 
 # Calling a function
 my_function()
+
+print(
+    "\nFunction with one parameter--------------------------------------------------------"
+)
 
 
 # Function with Arguments
@@ -18,6 +26,10 @@ def fun_with_argument(name):
 fun_with_argument("Michael")
 # The problem is it can take anything you pass no matter which datatype is
 fun_with_argument(78)
+
+print(
+    "\nFunction with more parameters--------------------------------------------------------"
+)
 
 
 # Function with more than one argument
