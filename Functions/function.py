@@ -39,3 +39,33 @@ def fun_with_more_argument(fname, lname, age):
 
 # Call the function
 fun_with_more_argument("Ali", "Kruskul", 67)
+
+print(
+    "\nFunction with under specified arguments--------------------------------------------------------"
+)
+
+
+def fun_with_underspecied_argument(fname, lname):
+    print(fname + " " + lname)
+
+
+# my_function("Ali")
+print(
+    "this will print an erro if the Function has under specified arguments--------------------------------------------------------"
+)
+
+print(
+    "\nIf you want to pass more argument in your Function just add * before the parameter name--------------------------------------------------------"
+)
+
+
+def fun_with_arbitery_argument(*names):
+    print("The first argument is " + names[0])
+    print("All the arguments list is: ")
+    j = 0
+    for i in names:
+        print(j, "--------", i)
+        j = j + 1
+
+
+fun_with_arbitery_argument("Leli", "Tedros", "Kali", "45")
