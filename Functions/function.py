@@ -69,3 +69,17 @@ def fun_with_arbitery_argument(*names):
 
 
 fun_with_arbitery_argument("Leli", "Tedros", "Kali", "45")
+
+
+print(
+    "\nKeyword argument in Python functions--------------------------------------------------------"
+)
+
+
+def fun_with_keyword_argument(fname, lname, age):
+    print("The first name is: ", fname)
+    print("The last name is: ", lname)
+    print("The age is: ", age)
+
+
+fun_with_keyword_argument(fname="Leyla", age=56, lname="Key")
