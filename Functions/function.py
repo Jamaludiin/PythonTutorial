@@ -83,3 +83,18 @@ def fun_with_keyword_argument(fname, lname, age):
 
 
 fun_with_keyword_argument(fname="Leyla", age=56, lname="Key")
+
+
+print(
+    "\nUsing Default Parameter Value in Python functions--------------------------------------------------------"
+)
+
+
+def fun_with_default_parameter(animal="Lion"):
+    print("the name of the animal is :", animal)
+
+
+fun_with_default_parameter("Tiger")
+fun_with_default_parameter("Goat")
+fun_with_default_parameter()
+fun_with_default_parameter("Cow")
