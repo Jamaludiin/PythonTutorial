@@ -147,3 +147,15 @@ def fun_with_return_value(x, y):
 
 print(fun_with_return_value(5, 5))
 print(fun_with_return_value(5, 3))
+
+
+print(
+    "\nThe pass Statement practice--------------------------------------------------------"
+)
+
+
+def fun_with_pass_statement():
+    pass
+
+
+fun_with_pass_statement()
