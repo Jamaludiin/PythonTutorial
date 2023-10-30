@@ -82,10 +82,19 @@ def fun_with_keyword_argument(fname, lname, age):
     print("The age is: ", age)
 
 
-fun_with_keyword_argument(fname="Leyla", age=56, lname="Key")
+fun_with_keyword_argument(
+    fname="Leyla",
+    age=56,
+    lname="Key",
+)
 
 
-print("\n--------------------------------------------------------")
+print("\n some of the value in the variable can be list---------------------")
+# some of the value in the variable can be list
+fun_with_keyword_argument(fname=["Leyla", "Omar"], age=99, lname={"Laki", 55, "true"})
+print(
+    "\nFunction with default parameter--------------------------------------------------------"
+)
 
 
 def fun_with_default_parameter(animal="Lion"):
@@ -111,3 +120,8 @@ def fun_with_list_argument(names):
 
 names_1 = ["Ali", "Key", "Kali", "Shik"]
 fun_with_list_argument(names_1)
+
+
+print(
+    "\nPassing a List as an Argument in Python functions--------------------------------------------------------"
+)
