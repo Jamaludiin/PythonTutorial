@@ -123,5 +123,16 @@ fun_with_list_argument(names_1)
 
 
 print(
-    "\nPassing a List as an Argument in Python functions--------------------------------------------------------"
+    "\nReturn Values practice--------------------------------------------------------"
 )
+
+
+def fun_with_return():
+    a = 10
+    b = 20
+    c = a + b
+    return c
+
+
+resut = fun_with_return()
+print(resut)
