@@ -136,3 +136,14 @@ def fun_with_return():
 
 resut = fun_with_return()
 print(resut)
+
+print("\nMore practice of return function--------------------------------------")
+
+
+# or
+def fun_with_return_value(x, y):
+    return x * y
+
+
+print(fun_with_return_value(5, 5))
+print(fun_with_return_value(5, 3))
