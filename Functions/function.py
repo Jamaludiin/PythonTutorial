@@ -159,3 +159,21 @@ def fun_with_pass_statement():
 
 
 fun_with_pass_statement()
+
+
+print(
+    "\nFunction recursion practice--------------------------------------------------------"
+)
+
+
+def fun_with_recursion(k):
+    if k > 0:
+        result = k + fun_with_recursion(k - 1)
+        print(result)
+    else:
+        result = 0
+    return result
+
+
+print("\n\nRecursion Example Results")
+fun_with_recursion(5)
