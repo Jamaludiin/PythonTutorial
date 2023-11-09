@@ -18,8 +18,15 @@ result = lambda a, b: a + b
 print(result(5, 5))
 
 print(
-    "\nLmbda with Multiply argument and return the result:------------------------------------------------"
+    "\nLmbda with Multiply argument and return string result:------------------------------------------------"
 )
 
 result = lambda str1, str2: str1 + str2
 print(result("leyla", " Moha"))
+
+print(
+    "\nLmbda with three argument and return the result:------------------------------------------------------"
+)
+
+result = lambda a, b, c: print(a + b * c)
+print(result(4, 5, 2))
