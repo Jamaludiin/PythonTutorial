@@ -4,3 +4,22 @@ print(
 
 result = lambda x: x + 5
 print(result(10))
+
+print(
+    "This another example:----------------------------------------------------------------------------"
+)
+result = lambda x: x + 10
+print(result(10))
+
+print(
+    "\nLmbda with Multiply argument and return the result:------------------------------------------------"
+)
+result = lambda a, b: a + b
+print(result(5, 5))
+
+print(
+    "\nLmbda with Multiply argument and return the result:------------------------------------------------"
+)
+
+result = lambda str1, str2: str1 + str2
+print(result("leyla", " Moha"))
