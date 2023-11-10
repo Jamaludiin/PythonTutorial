@@ -30,3 +30,13 @@ print(
 
 result = lambda a, b, c: print(a + b * c)
 print(result(4, 5, 2))
+
+
+# Main Purpose of Lmbda function is those bellow
+def myFun(b):
+    return lambda a: a + b
+
+
+myaddition = myFun(5)
+
+print(myaddition(5))
