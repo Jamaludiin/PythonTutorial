@@ -46,11 +46,11 @@ print(
     "\nLmbda with Multiply argument and return string result:------------------------------------------------"
 )
 
-result = lambda set1, set2: set1 + set2
+result = lambda list1, list2: list1 + list2
 print(result([1, 2, 3], [3, 4, 5]))
-union_set = result([1, 2, 3], [3, 4, 5])
+union_list = result([1, 2, 3], [3, 4, 5])
 
-print(union_set)
+print(union_list)
 
 """print(union_set=set1.union(set2))
 # Combine more set items
