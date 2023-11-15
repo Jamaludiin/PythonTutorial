@@ -40,3 +40,20 @@ def myFun(b):
 myaddition = myFun(5)
 
 print(myaddition(5))
+
+
+print(
+    "\nLmbda with Multiply argument and return string result:------------------------------------------------"
+)
+
+result = lambda set1, set2: set1 + set2
+print(result([1, 2, 3], [3, 4, 5]))
+union_set = result([1, 2, 3], [3, 4, 5])
+
+print(union_set)
+
+"""print(union_set=set1.union(set2))
+# Combine more set items
+set3 = {6, 7, 8}
+union_set = set1.union(set2, set3)
+print(union_set)"""
