@@ -566,28 +566,30 @@ Using the update() Method:
 
 The update() method adds elements from one set to another, effectively joining the two sets.
 python
-Copy code
+Copy code"""
+print("Example 49-------------------------------------------------------\n")
+
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 set1.update(set2)
 print(set1)
-Output:
 
-Copy code
-{1, 2, 3, 4, 5}
+"""
 Using Set Comprehension:
 
 You can use set comprehension to combine elements from multiple sets into a new set.
 python
-Copy code
+Copy code"""
+print("Example 50-------------------------------------------------------\n")
+
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
-joined_set = {x for x in set1} | {x for x in set2}
-print(joined_set)
-Output:
+set2 = {8, 9, 6}
 
-Copy code
-{1, 2, 3, 4, 5}
+joined_set = {x for x in set1} | {x for x in set2} | {x for x in set3}
+print(joined_set)
+
+"""
 Using the intersection() Method with Multiple Sets:
 
 While not typically used for joining sets, you can use the intersection() method with multiple sets to achieve a similar result by finding the intersection of sets.
