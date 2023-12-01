@@ -530,6 +530,7 @@ set3 = {6, 7, 8}
 union_set = set1.union(set2, set3)
 print(union_set)
 
+
 # -----------------------------------------------------------
 # create this seperate post blog with only these
 """In Python, you can join (combine) the elements of multiple sets into a single set using various set methods and set operations. Here are several ways to join set items, along with examples for each method:
@@ -538,28 +539,29 @@ Using the union() Method:
 
 The union() method returns a new set containing all unique elements from two or more sets.
 python
-Copy code
+Copy code"""
+print("Example 47-------------------------------------------------------\n")
+
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 joined_set = set1.union(set2)
 print(joined_set)
-Output:
 
-Copy code
-{1, 2, 3, 4, 5}
+"""
 Using the Pipe Operator (|):
 
 You can use the | operator to perform a union operation between sets, which combines elements from multiple sets into a new set.
 python
 Copy code
+"""
+print("Example 48-------------------------------------------------------\n")
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
-joined_set = set1 | set2
-print(joined_set)
-Output:
+set3 = {8, 7, 6}
 
-Copy code
-{1, 2, 3, 4, 5}
+joined_set = set1 | set2 | set3
+print(joined_set)
+"""
 Using the update() Method:
 
 The update() method adds elements from one set to another, effectively joining the two sets.
