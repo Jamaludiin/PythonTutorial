@@ -594,30 +594,32 @@ Using the intersection() Method with Multiple Sets:
 
 While not typically used for joining sets, you can use the intersection() method with multiple sets to achieve a similar result by finding the intersection of sets.
 python
-Copy code
+Copy code"""
+print("Example 51-------------------------------------------------------\n")
+# things that all the sets are similar with
 set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5}
-set3 = {4, 5, 6}
-joined_set = set1.intersection(set2, set3)
-print(joined_set)
-Output:
+set3 = {4, 5, 6, 3}
+set4 = {4, 3, 6}
 
-Copy code
-{4}
+joined_set = set1.intersection(set2, set3, set4)
+print(joined_set)
+
+"""
 Using Set Unions with * (Extended Unpacking):
 
 You can use the * operator to unpack multiple sets and combine them into a new set.
 python
-Copy code
+Copy code"""
+print("Example 52-------------------------------------------------------\n")
+
 set1 = {1, 2, 3}
 set2 = {3, 4, 5}
 set3 = {5, 6, 7}
 joined_set = {*set1, *set2, *set3}
 print(joined_set)
-Output:
 
-Copy code
-{1, 2, 3, 4, 5, 6, 7}
+"""
 These examples demonstrate different ways to join set items in Python, whether by using set methods, set operations, or set comprehensions, depending on your specific use case and preference."""
 
 
