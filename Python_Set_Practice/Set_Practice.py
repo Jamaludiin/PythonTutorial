@@ -615,3 +615,19 @@ Output:
 Copy code
 {1, 2, 3, 4, 5, 6, 7}
 These examples demonstrate different ways to join set items in Python, whether by using set methods, set operations, or set comprehensions, depending on your specific use case and preference."""
+
+
+# Additional practices of the sets, just checing
+print("Example 47-------------------------------------------------------\n")
+
+set_test = set({})
+print(set_test, type(set_test))
+
+set_test = set(
+    {
+        1,
+    }
+)
+print(set_test, type(set_test))
+set_test = set({1, 2, 3})
+print(set_test, type(set_test))
