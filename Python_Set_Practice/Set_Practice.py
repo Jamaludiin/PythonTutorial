@@ -624,7 +624,7 @@ These examples demonstrate different ways to join set items in Python, whether b
 
 
 # Additional practices of the sets, just checing
-print("Example 47-------------------------------------------------------\n")
+print("Example 43-------------------------------------------------------\n")
 
 set_test = set({})
 print(set_test, type(set_test))
