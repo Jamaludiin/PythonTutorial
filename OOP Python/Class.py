@@ -24,6 +24,4 @@ class Person:
 
 p1 = Person("Alice", "Mike", 36)
 
-print(p1.fname)
-print(p1.lname)
-print(p1.age)
+print(p1.fname, p1.lname, p1.age)
