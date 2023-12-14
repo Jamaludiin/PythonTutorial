@@ -20,14 +20,14 @@ class myCalculator:
                 return "Error: Division by zero"
 
 # Example usage
-result = myCalculator(10, "+", 20)
+result = myCalculator(20, "+", 5)
 print(f"{result.operand1} {result.operator} {result.operand2} = {result.result}")
 
-result = myCalculator(10, "-", 20)
+result = myCalculator(20, "-", 10)
 print(f"{result.operand1} {result.operator} {result.operand2} = {result.result}")
 
-result = myCalculator(10, "*", 20)
+result = myCalculator(5, "*", 5)
 print(f"{result.operand1} {result.operator} {result.operand2} = {result.result}")
 
-result = myCalculator(10, "/", 20)
+result = myCalculator(30, "/", 3)
 print(f"{result.operand1} {result.operator} {result.operand2} = {result.result}")
