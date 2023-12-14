@@ -6,6 +6,9 @@ class myCalculator:
       self.operator = operator
       self.result = self.calculate()
    
+   """the __init__ method directly without using an additional function. However, the __init__ method in a class 
+   is not meant to return values like a regular function. Instead, you can create a separate method for performing 
+   the calculations. """
    def calculate(self):
         if self.operator == "+":
             return self.operand1 + self.operand2
@@ -31,3 +34,6 @@ print(f"{result.operand1} {result.operator} {result.operand2} = {result.result}"
 
 result = myCalculator(30, "/", 3)
 print(f"{result.operand1} {result.operator} {result.operand2} = {result.result}")
+
+
+print("\n")
