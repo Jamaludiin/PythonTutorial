@@ -22,15 +22,25 @@ class animal:
         else:
             return "Animal is from Unknown Cataegory"
 
+    def __str__(self):
+        #return f"{self.name}({self.age})"  
+        return f"Name: {self.name}, \nColor: {self.color} \nCategory: {self.category} \nAnimal Facts: {self.animal_facts} \n"
+
+
 animal_obj = animal("Snake", "Yellow", "Reptiles")
-# display the animals on the screen
+"""# display the animals on the screen
 print("Name:", animal_obj.name, "\nColor:", animal_obj.color, "\nCategory:", animal_obj.category, "\nAnimal Facts:", animal_obj.animal_facts,"\n")
+"""
+print(animal_obj)
 
 animal_obj = animal("Lion", "Red", "Mammals")
-# display the animals on the screen
+"""# display the animals on the screen
 print("Name:", animal_obj.name, "\nColor:", animal_obj.color, "\nCategory:", animal_obj.category, "\nAnimal Facts:", animal_obj.animal_facts,"\n")
-
+"""
+print(animal_obj)
 
 animal_obj = animal("Alien", "Dark", "Carnivals")
-# display the animals on the screen
+"""# display the animals on the screen
 print("Name:", animal_obj.name, "\nColor:", animal_obj.color, "\nCategory:", animal_obj.category, "\nAnimal Facts:", animal_obj.animal_facts,"\n")
+"""
+print(animal_obj)
