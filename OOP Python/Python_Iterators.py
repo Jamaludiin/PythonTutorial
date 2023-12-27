@@ -128,3 +128,27 @@ myiter = iter(marks_obj)
 print("Before increment happen ", next(myiter))
 print("After increment happen ",next(myiter))
 
+
+
+# Stoping itorator
+print("\n")
+
+class class_iterator_stop:
+  def __iter__(self):
+    self.years = 23 # means 2023
+    return self
+
+  def __next__(self):
+    if self.years <= 30: # means 2030
+      current_year = self.years
+      self.years += 1
+      return current_year
+    else:
+      raise StopIteration
+
+obj_iterator_stop = class_iterator_stop()
+var_iter = iter(obj_iterator_stop)
+
+for x in var_iter:
+  this_year = 2000 + x
+  print("Year is",this_year)
