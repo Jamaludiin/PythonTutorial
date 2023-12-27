@@ -44,7 +44,8 @@ class reptiles(animal):
          print("Reptiles, as commonly defined, are a group of tetrapods with an ectothermic metabolism and amniotic development.\n")
         
 
-            
+# calling the classes and creating objects 
+           
 animal_obj = animal("Lion","Red", "Mammals")
 #animal_obj.show()
 print(animal_obj)

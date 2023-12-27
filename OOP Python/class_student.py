@@ -46,3 +46,50 @@ course.add_student(obj_s3)# it will not be added
 print(course.students[0].name)
 
 print(course.get_average_grade())    
+
+
+
+# ANOTHER ONE EXAMPLES
+# IELTS Marking scheme
+class marks:
+  def __init__(self, score):# score ranges 0-40
+     self.score = score
+     print("\nIELTS Score of ", self.score, "is:")
+
+
+  """def __iter__(self,score): 
+    self.score = score
+    return score"""
+  
+  def outcome(self):
+    if self.score in range (9,13): # range is 9 to 12, 13 is not inclusive 
+       return 4
+    elif self.score in range (13,16):
+      return 4.5
+    elif self.score in range (16,20):
+      return 5
+    elif self.score in range (20,23):
+      return 5.5
+    elif self.score in range (23,27):
+      return 6
+    elif self.score in range (27,30):
+      return 6.5
+    elif self.score in range (30,33):
+      return 7
+    elif self.score in range (33,35):
+      return 7.5
+    elif self.score in range (35,37):
+      return 8
+    elif self.score in range (37,39):
+      return 8.5
+    elif self.score in range (39,41):
+      return 9
+    else:
+      return "Unknown Results"
+    
+marks_obj = marks(12) # why
+print(marks_obj.outcome())
+marks_obj = marks(37)
+print(marks_obj.outcome())
+marks_obj = marks(3)
+print(marks_obj.outcome())
