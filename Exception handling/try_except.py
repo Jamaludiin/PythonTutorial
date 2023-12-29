@@ -76,3 +76,25 @@ try:
     print("File is closed as well")
 except:
   print("File opening has problem")
+
+
+#---------------------------------------------------------------------------------------------
+#Raise an exception
+"""As a Python developer you can choose to throw an exception if a condition occurs.
+To throw (or raise) an exception, use the raise keyword."""
+print("\n")
+x = 10
+
+if x < 9:# if it is false exeception will be trigered
+  raise Exception("Sorry, no numbers below zero")
+else: # this will not be executed becouse the above condition must be false
+    print("Number is below or equal 10")
+
+
+#---------------------------------------------------------------------------------------------
+# we can state what kind of error to be raised
+x = "My name"
+y = 10
+
+if not type(x) is int: # if it is string this will be displayed "raise TypeError("Please use string in the condition")"
+  raise TypeError("Please use string in the condition")
