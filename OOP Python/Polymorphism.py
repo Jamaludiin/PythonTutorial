@@ -7,6 +7,7 @@ to methods/functions/operators with the same name that can be executed on many o
 
 # Cars (Drive), Planes (Fly), Boats (Sail) all move, so they share this method or charecteristics, this example gives each class move method but diffrent task
 print("\n")
+
 class Car:
   def __init__(self, brand, model):
     self.brand = brand
@@ -35,7 +36,7 @@ car1 = Car("Ford", "Mustang")       #Create a Car class
 boat1 = Boat("Ibiza", "Touring 20") #Create a Boat class
 plane1 = Plane("Boeing", "747")     #Create a Plane class
 
-# all classes use the same method during call, but when it goes back he behaves diffrently
+# all classes use the same method during call, but when it goes back it behaves diffrently
 for x in (car1, boat1, plane1):
   x.move()
 
