@@ -1,4 +1,4 @@
-class transportSystem:
+class vehicle:
   def __init__(self, brand, model):
     self.brand = brand
     self.model = model
@@ -6,15 +6,15 @@ class transportSystem:
   def move(self):
     print("Transport System!")
 
-class Car(transportSystem):
+class Car(vehicle):
   def move(self):
     print("Drive!")
 
-class Boat(transportSystem):
+class Boat(vehicle):
   def move(self):
     print("Sail!")
 
-class Plane(transportSystem):
+class Plane(vehicle):
   def move(self):
     print("Fly!")
 
